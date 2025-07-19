@@ -29,7 +29,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("Excel Chat Assistant (Mistral 7B API)")
+st.title("Excel Chat Assistant")
 st.write("Upload an Excel file and ask questions in natural language. Get answers as text, tables, or charts!")
 
 # Ensure charts directory exists
@@ -162,7 +162,7 @@ with st.container():
     # Most recent Q&A
     if chat_history:
         st.markdown("---")
-        st.subheader("Most Recent Exchange")
+        st.subheader("Most Recent History")
         q, a, a_type, a_data, code = chat_history[-1]
         st.markdown(f"**You:** {q}")
         if a_type == "text":
