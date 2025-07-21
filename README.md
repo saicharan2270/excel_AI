@@ -1,4 +1,4 @@
-# Excel Chat Assistant (Mistral 7B API)
+# Excel Chat Assistant
 
 A Streamlit app that lets you upload an Excel file and ask questions in natural language. The app uses the Mistral 7B API to generate Python code for data analysis and visualization.
 
@@ -26,13 +26,11 @@ A Streamlit app that lets you upload an Excel file and ask questions in natural 
     streamlit run app.py
     ```
 
-## Security
 
-This app executes LLM-generated code. For production, consider sandboxing or code validation.
 
 ---
 
-Powered by [Mistral 7B API](https://docs.mistral.ai/api/) and [Streamlit](https://streamlit.io/). 
+
 
 
 App_link:- https://excelanalyser-app.streamlit.app/
